@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/Work/GameClub/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="/Volumes/Data/Work/GameClub/android/app/build/intermediates/pre-dexed/release/internal_impl-23.2.1_54d76875b5c9b501699e00f0959157e55a8a230a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xialin/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.4.1/8ace66ef7002d98f633377c9e67daeeb196d8c3b/okhttp-ws-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
+        <dex dex="/Volumes/Data/Work/GameClub/android/app/build/intermediates/pre-dexed/release/okhttp-ws-3.4.1_81e1d9833606749968739788762c4b6b4c8efaa3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/Work/GameClub/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Volumes/Data/Work/GameClub/android/app/build/intermediates/pre-dexed/release/com.android.support-appcompat-v7-23.0.1_528f06daab4fd8caf96b9e22a7982ed200282884.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xialin/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.3/1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14/jackson-core-2.2.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
+        <dex dex="/Volumes/Data/Work/GameClub/android/app/build/intermediates/pre-dexed/release/jackson-core-2.2.3_4dbc51ecb7ce4eaaa734c3b8d9269cf10338e3ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/Work/GameClub/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Volumes/Data/Work/GameClub/android/app/build/intermediates/pre-dexed/release/com.facebook.soloader-soloader-0.1.0_c83e641004c531170d20467bff8d405c25399c34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/Work/GameClub/android/app/build/intermediates/exploded-aar/GameClub/react-native-image-picker/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="394abdf12892cddf87fa112066c2820721ddb955">
+        <dex dex="/Volumes/Data/Work/GameClub/android/app/build/intermediates/pre-dexed/release/GameClub-react-native-image-picker-unspecified_914a4765f9b3f6e53a547b98ae4c4eeb875796e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xialin/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Volumes/Data/Work/GameClub/android/app/build/intermediates/pre-dexed/release/javax.inject-1_b229026b6ab706ff0051d6aaf309536ee4b184de.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/Work/GameClub/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="/Volumes/Data/Work/GameClub/android/app/build/intermediates/pre-dexed/release/com.android.support-recyclerview-v7-23.0.1_0bd6600d3b22b3b411789bab3e7f793466b0f42a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/Work/GameClub/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.39.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="45b2c107c63eeed4a35c2d1d5d61783b194cbcd5">
+        <dex dex="/Volumes/Data/Work/GameClub/android/app/build/intermediates/pre-dexed/release/com.facebook.react-react-native-0.39.0_128559b8ef3ee552edebb57bc88631eb4ac6366c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xialin/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/Volumes/Data/Work/GameClub/android/app/build/intermediates/pre-dexed/release/okio-1.9.0_70d00580aed6251e8fa2f23b5ff31ee6b74bacf6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/Work/GameClub/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ca63c521b5745ae9a09629d7ca67ff6bc2a967fe">
+        <dex dex="/Volumes/Data/Work/GameClub/android/app/build/intermediates/pre-dexed/release/com.facebook.fresco-imagepipeline-base-0.11.0_12fcec0fce04eb1ff4b161120cdd0fbe65fce868.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xialin/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Volumes/Data/Work/GameClub/android/app/build/intermediates/pre-dexed/release/bolts-tasks-1.4.0_d809098d4c5a7e71196216b84589725528f46658.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/Work/GameClub/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.39.0/jars/libs/infer-annotations-1.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3ac8871b8dca7d0750bca6cd92aedec19d07d3ef">
+        <dex dex="/Volumes/Data/Work/GameClub/android/app/build/intermediates/pre-dexed/release/infer-annotations-1.5_d2832d2b5da2da432cf7465ed9eb5d7745a51631.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/Work/GameClub/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3341b66c54367e777a0647e2db96c045329bfeab">
+        <dex dex="/Volumes/Data/Work/GameClub/android/app/build/intermediates/pre-dexed/release/com.facebook.fresco-imagepipeline-0.11.0_733588cd07c6047418ec62b5f4102fd1ded812da.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xialin/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Volumes/Data/Work/GameClub/android/app/build/intermediates/pre-dexed/release/library-2.4.0_5e14ed7cc98abe9d29f5512f2a32d850254a2eab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xialin/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="/Volumes/Data/Work/GameClub/android/app/build/intermediates/pre-dexed/release/okhttp-3.4.1_1652c322ec0241d7cf98051032385c8ddee5ab09.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/Work/GameClub/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="98786c1770b531b9194fb6448b2a2692c64074b6">
+        <dex dex="/Volumes/Data/Work/GameClub/android/app/build/intermediates/pre-dexed/release/com.facebook.fresco-fbcore-0.11.0_435ae6b5438809534af172c6cf4854e5aaf3176b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/Work/GameClub/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1137942adeb03984c1311b662363dd38fc238fd3">
+        <dex dex="/Volumes/Data/Work/GameClub/android/app/build/intermediates/pre-dexed/release/com.facebook.fresco-drawee-0.11.0_d4f59894091a431cfb1be9f6515425cb6beef98c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xialin/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Volumes/Data/Work/GameClub/android/app/build/intermediates/pre-dexed/release/jsr305-3.0.0_8bc38ea413cb016d918315e83b29613bcf451609.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xialin/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="/Volumes/Data/Work/GameClub/android/app/build/intermediates/pre-dexed/release/support-annotations-23.2.1_06b4cf546d07824cbf321a03cd1d958b3511c8cc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/Work/GameClub/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="/Volumes/Data/Work/GameClub/android/app/build/intermediates/pre-dexed/release/com.android.support-support-v4-23.2.1_1eb75b8f831871fe2c7e699b44b2c9ad5afd8b00.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/Work/GameClub/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2b8a01ad9da5d26d0067894c22e87597bca2c500">
+        <dex dex="/Volumes/Data/Work/GameClub/android/app/build/intermediates/pre-dexed/release/com.facebook.fresco-imagepipeline-okhttp3-0.11.0_e490b844032e0992282148488ac235eddbbeda05.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/Work/GameClub/android/app/build/intermediates/exploded-aar/GameClub/react-native-fetch-blob/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ed8e3a4d861b6b8861f6e8394fcb5f9f9e10b246">
+        <dex dex="/Volumes/Data/Work/GameClub/android/app/build/intermediates/pre-dexed/release/GameClub-react-native-fetch-blob-unspecified_f56bd8e12952869d1f128e1a2b99890643368f16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/Work/GameClub/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d31aadf33187c37a7cd63dc1b769f8c6e33f78c3">
+        <dex dex="/Volumes/Data/Work/GameClub/android/app/build/intermediates/pre-dexed/release/com.facebook.fresco-fresco-0.11.0_31399083e032a7c64a82d74fdf26080b7e16fa8e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xialin/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.4.1/63994437f62bc861bc20c605d12962f7246116d1/okhttp-urlconnection-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="/Volumes/Data/Work/GameClub/android/app/build/intermediates/pre-dexed/release/okhttp-urlconnection-3.4.1_dd54ead635b413450ffc27d6b0b6dad121fa0af3.jar" />
+    </item>
+
+</items>

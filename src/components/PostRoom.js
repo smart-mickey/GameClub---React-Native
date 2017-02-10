@@ -28,7 +28,7 @@ const {
 
 var Global = require('../Global');
 var { gStyle, } = Global;
-var nextImage = require('../image/eye.png');
+var trash = require('../image/trash.png');
 import RNFetchBlob from 'react-native-fetch-blob'
 const prefix = ((Platform.OS === 'android') ? 'file://' : '');
 
@@ -48,6 +48,7 @@ class GameRoom extends React.Component {
       modal_open: false,
       commentText: '',
       loading: false,
+      isAdmin: false,
     };
     
   }  
@@ -65,6 +66,7 @@ class GameRoom extends React.Component {
           
           Database.getImagefromURL(Data.image, (url) => {
               var temp = {uri: url};
+              _this.setState({url: JSON.stringify(url)});
               _this.loadInterval && _this.setState({img: temp});
               _this.loadInterval && _this.setState({ dataSource: ds.cloneWithRows(Comments)});
               _this.loadInterval && _this.setState({loading: false});
@@ -72,13 +74,17 @@ class GameRoom extends React.Component {
 
           Database.getCommentFromPost((Data) => {    
               Comments = ['header'];          
+              _this.loadInterval && _this.setState({ dataSource: ds.cloneWithRows(Comments)});
               Object.keys(Data).map(function (key) {  
-                   Comments.push(Data[key]);
-                   _this.loadInterval && _this.setState({ dataSource: ds.cloneWithRows(Comments)});
+                Data[key]['key'] = key;
+                Comments.push(Data[key]);
+                _this.loadInterval && _this.setState({ dataSource: ds.cloneWithRows(Comments)});
               });
           });        
           
       });
+
+      if(Global.myEmail == 'becoolchamp@hotmail.com') this.setState({isAdmin: true});
   }
 
   componentWillUnmount () {
@@ -119,10 +125,14 @@ class GameRoom extends React.Component {
                         return(             
                             rowID == 0?
                             <View style = {{margin: 10, flex: 1, flexDirection: 'column'}}>
+                                <TouchableOpacity onPress = {() => Actions.Preview({img: this.state.img})}>
                                 <View style = {{flex: 1, flexDirection: 'row', padding: 10, alignItems: 'center'}}>
-                                    <Image style = {{minHeight:300, flex: 0.9, alignSelf: 'stretch'}} indicator = {ProgressBar} source = {this.state.img}>
-                                    </Image>
+                                    
+                                        <Image style = {{minHeight:300, flex: 0.9, alignSelf: 'stretch'}} indicator = {ProgressBar} source = {this.state.img}>
+                                        </Image>
+                                    
                                 </View>
+                                </TouchableOpacity>
                                 <View style = {{flex: 1, minHeight: 40, flexDirection: 'row', padding: 10}}>
                                     <Text style = {{color: 'black', fontWeight: 'bold', fontSize: 20}}>{this.state.title}</Text>
                                 </View>
@@ -144,7 +154,7 @@ class GameRoom extends React.Component {
                                         <Text style = {{color: 'gray', fontSize: 16, textAlign: 'left', fontStyle: 'italic'}}> {rowData.username}</Text>
                                     </View>
                                     <View style = {{flex: 0.5}}>
-                                        <Text style = {{color: 'gray', fontSize: 16, textAlign: 'right', fontStyle: 'italic',  paddingRight: 10}}> {rowData.date}</Text>
+                                        {this._renderDate(rowData)}                                        
                                     </View>
                                 </View>
                                 
@@ -175,6 +185,7 @@ class GameRoom extends React.Component {
                             style = {{color: 'black', height: 100, padding: 5, fontSize: 18, borderColor: 'black', borderBottomWidth: 0.5}}
                             placeholder = "Type here..."
                             placeholderTextColor = "black"
+                            underlineColorAndroid='transparent'
                             onChangeText = {(text) => this.setState({ commentText: text })}
                             value = {this.state.commentText}
                             multiline = {true}
@@ -192,6 +203,43 @@ class GameRoom extends React.Component {
     );
   }
 
+  _renderDate(rowData) {
+      if(this.state.isAdmin){
+          return (
+            <View style = {{flexDirection: 'row', flex: 1}}>
+                <View style = {{flex: 0.8}}>
+                    <Text style = {{color: 'gray', fontSize: 16, textAlign: 'right', fontStyle: 'italic',  paddingRight: 10}}>
+                        {rowData.date}
+                    </Text>
+                </View>
+                <View style = {{flex: 0.2}}>
+                    <TouchableOpacity onPress = {() => this._deleteComment(rowData.key)}>
+                        <Image source = {trash} style = {{width: 15, height: 20}}/>
+                    </TouchableOpacity>
+                </View>         
+            </View>
+          )
+      }
+      else{
+          return(
+              <Text style = {{color: 'gray', fontSize: 16, textAlign: 'right', fontStyle: 'italic',  paddingRight: 10}}> {rowData.date}</Text>
+          )
+      }
+  }
+
+  _deleteComment(key) {
+    Alert.alert(
+        '',
+        'Are you sure you want to remove this comment?',
+        [
+            {text: 'Cancel', onPress: () => console.log('Cancel Pressed'), style: 'cancel'},
+            {text: 'Yes', onPress: () => Database.deleteComment(key)},
+        ],
+        { cancelable: false }
+    )
+      
+  }
+
   convertTitle(data) {
       var imagename = data.image.substr(0, data.image.length - 15);
       return imagename;
@@ -206,6 +254,17 @@ class GameRoom extends React.Component {
       Database.postComment(timestamp, Model.getDate(), this.state.commentText);
       this.setState({modal_open: false});      
   }
+
+  reviewPost() {
+      alert("clicked");
+        // <View style = {{flex: 0.8, flexDirection: 'row'}}>
+        //     <Text style = {{flex: 0.6, color: 'yellow', fontSize: 20}}>{this.convertTitle(rowData)}</Text>
+        //     <Text style = {{flex: 0.2, color: 'gray', fontSize: 20}}> ( {rowData.username} )</Text>
+        // </View>
+        // <TouchableOpacity style = {{flex: 0.2, alignItems: 'flex-end'}} onPress = {() => this.reviewPost()}>
+        //     <Image source={nextImage} style = {{width: 30, height: 30}}/>
+        // </TouchableOpacity>
+  } 
     
     
 }

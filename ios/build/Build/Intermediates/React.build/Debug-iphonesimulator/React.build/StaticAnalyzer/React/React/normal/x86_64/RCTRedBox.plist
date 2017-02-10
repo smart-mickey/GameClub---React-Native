@@ -6,7 +6,7 @@
 <string>Apple LLVM version 8.0.0 (clang-800.0.42.1)</string>
  <key>files</key>
  <array>
-  <string>/Volumes/Data/Work/GameClub/node_modules/react-native/React/Modules/RCTRedBox.m</string>
+  <string>/Volumes/Data/Work/ReactNative/GameClub/node_modules/react-native/React/Modules/RCTRedBox.m</string>
  </array>
  <key>diagnostics</key>
  <array>

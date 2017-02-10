@@ -92,7 +92,7 @@ class Login extends React.Component {
   render() {
     
     return (
-            
+        <View style = {{flex: 1, flexDirection: 'row'}}>
         <Image source = {logo} style = {{flex: 1, flexDirection: 'column', resizeMode: 'stretch', alignSelf: 'stretch'}}>
                 <View style = {{flex: 0.4}}>
 
@@ -137,6 +137,7 @@ class Login extends React.Component {
                 </View>
                 </View>
         </Image>
+        </View>
     );
   }    
 
@@ -151,6 +152,7 @@ class Login extends React.Component {
             Database.listenUserDetails((Data) => {
                 var un = Data[user.uid].details.username;
                 Global.myUsername = un;
+                Global.myEmail = email;
                 storage.save({
                     key: 'currentUser',   // Note: Do not use underscore("_") in key! 
                     rawData: {

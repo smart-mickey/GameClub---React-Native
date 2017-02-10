@@ -1,6 +1,6 @@
 dependencies: \
-  /Volumes/Data/Work/GameClub/node_modules/react-native/Libraries/Text/RCTTextSelection.m \
-  /Volumes/Data/Work/GameClub/node_modules/react-native/Libraries/Text/RCTTextSelection.h \
+  /Volumes/Data/Work/ReactNative/GameClub/node_modules/react-native/Libraries/Text/RCTTextSelection.m \
+  /Volumes/Data/Work/ReactNative/GameClub/node_modules/react-native/Libraries/Text/RCTTextSelection.h \
   ../../React/Base/RCTConvert.h ../../React/CSSLayout/CSSLayout.h \
   ../../React/CSSLayout/CSSEnums.h ../../React/CSSLayout/CSSMacros.h \
   ../../React/Views/RCTAnimationType.h \

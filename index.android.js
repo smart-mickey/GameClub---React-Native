@@ -13,6 +13,7 @@ const Upload = require('./src/components/Upload');
 const Register = require('./src/components/Signup');
 const GameRoom = require('./src/components/GameRoom');
 const PostRoom = require('./src/components/PostRoom');
+const Preview = require('./src/components/PreviewImage');
 import {Actions, Scene, Router} from 'react-native-router-flux';
 const {
   AppRegistry,
@@ -28,6 +29,7 @@ const scenes = Actions.create(
     <Scene key="Register" component={Register} hideNavBar={true} title="Register"/>  
     <Scene key="GameRoom" component={GameRoom} hideNavBar={true} title="GameRoom"/>  
     <Scene key="PostRoom" component={PostRoom} hideNavBar={true} title="PostRoom"/>  
+    <Scene key="Preview" component={Preview} hideNavBar={true} title="Preview"/>  
   </Scene>
 );
 

@@ -1,8 +1,8 @@
 dependencies: \
-  /Volumes/Data/Work/GameClub/node_modules/react-native/Libraries/ART/ViewManagers/ARTRenderableManager.m \
-  /Volumes/Data/Work/GameClub/node_modules/react-native/Libraries/ART/ViewManagers/ARTRenderableManager.h \
-  /Volumes/Data/Work/GameClub/node_modules/react-native/Libraries/ART/ViewManagers/ARTNodeManager.h \
-  /Volumes/Data/Work/GameClub/node_modules/react-native/Libraries/ART/ARTNode.h \
+  /Volumes/Data/Work/ReactNative/GameClub/node_modules/react-native/Libraries/ART/ViewManagers/ARTRenderableManager.m \
+  /Volumes/Data/Work/ReactNative/GameClub/node_modules/react-native/Libraries/ART/ViewManagers/ARTRenderableManager.h \
+  /Volumes/Data/Work/ReactNative/GameClub/node_modules/react-native/Libraries/ART/ViewManagers/ARTNodeManager.h \
+  /Volumes/Data/Work/ReactNative/GameClub/node_modules/react-native/Libraries/ART/ARTNode.h \
   ../../React/Views/UIView+React.h ../../React/Views/RCTComponent.h \
   ../../React/Views/RCTViewManager.h ../../React/Base/RCTBridgeModule.h \
   ../../React/Base/RCTDefines.h ../../React/Base/RCTConvert.h \
@@ -16,8 +16,8 @@ dependencies: \
   ../../React/Base/RCTBridgeDelegate.h \
   ../../React/Base/RCTJavaScriptLoader.h \
   ../../React/Base/RCTFrameUpdate.h ../../React/Base/RCTInvalidating.h \
-  /Volumes/Data/Work/GameClub/node_modules/react-native/Libraries/ART/ARTRenderable.h \
-  /Volumes/Data/Work/GameClub/node_modules/react-native/Libraries/ART/Brushes/ARTBrush.h \
-  /Volumes/Data/Work/GameClub/node_modules/react-native/Libraries/ART/ARTCGFloatArray.h \
-  /Volumes/Data/Work/GameClub/node_modules/react-native/Libraries/ART/RCTConvert+ART.h \
-  /Volumes/Data/Work/GameClub/node_modules/react-native/Libraries/ART/ARTTextFrame.h
+  /Volumes/Data/Work/ReactNative/GameClub/node_modules/react-native/Libraries/ART/ARTRenderable.h \
+  /Volumes/Data/Work/ReactNative/GameClub/node_modules/react-native/Libraries/ART/Brushes/ARTBrush.h \
+  /Volumes/Data/Work/ReactNative/GameClub/node_modules/react-native/Libraries/ART/ARTCGFloatArray.h \
+  /Volumes/Data/Work/ReactNative/GameClub/node_modules/react-native/Libraries/ART/RCTConvert+ART.h \
+  /Volumes/Data/Work/ReactNative/GameClub/node_modules/react-native/Libraries/ART/ARTTextFrame.h

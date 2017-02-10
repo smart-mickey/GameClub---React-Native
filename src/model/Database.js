@@ -155,6 +155,11 @@ class Database {
         })
     }
 
+    static deleteComment(key) {
+        let CommentPath = "/Comments/" + Global.selectedPost + "/" + key;
+        return firebase.database().ref(CommentPath).remove();
+    }
+
 }
 
 module.exports = Database;

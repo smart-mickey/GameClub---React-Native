@@ -1,7 +1,7 @@
 dependencies: \
-  /Volumes/Data/Work/GameClub/node_modules/react-native/Libraries/ART/ViewManagers/ARTNodeManager.m \
-  /Volumes/Data/Work/GameClub/node_modules/react-native/Libraries/ART/ViewManagers/ARTNodeManager.h \
-  /Volumes/Data/Work/GameClub/node_modules/react-native/Libraries/ART/ARTNode.h \
+  /Volumes/Data/Work/ReactNative/GameClub/node_modules/react-native/Libraries/ART/ViewManagers/ARTNodeManager.m \
+  /Volumes/Data/Work/ReactNative/GameClub/node_modules/react-native/Libraries/ART/ViewManagers/ARTNodeManager.h \
+  /Volumes/Data/Work/ReactNative/GameClub/node_modules/react-native/Libraries/ART/ARTNode.h \
   ../../React/Views/UIView+React.h ../../React/Views/RCTComponent.h \
   ../../React/Views/RCTViewManager.h ../../React/Base/RCTBridgeModule.h \
   ../../React/Base/RCTDefines.h ../../React/Base/RCTConvert.h \

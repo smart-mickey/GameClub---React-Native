@@ -1,6 +1,6 @@
 dependencies: \
-  /Volumes/Data/Work/GameClub/node_modules/react-native/Libraries/Network/RCTNetInfo.m \
-  /Volumes/Data/Work/GameClub/node_modules/react-native/Libraries/Network/RCTNetInfo.h \
+  /Volumes/Data/Work/ReactNative/GameClub/node_modules/react-native/Libraries/Network/RCTNetInfo.m \
+  /Volumes/Data/Work/ReactNative/GameClub/node_modules/react-native/Libraries/Network/RCTNetInfo.h \
   ../../React/Modules/RCTEventEmitter.h ../../React/Base/RCTBridge.h \
   ../../React/Base/RCTBridgeDelegate.h \
   ../../React/Base/RCTJavaScriptLoader.h ../../React/Base/RCTDefines.h \

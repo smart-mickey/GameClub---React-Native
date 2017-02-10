@@ -1,6 +1,6 @@
 dependencies: \
-  /Volumes/Data/Work/GameClub/node_modules/react-native/Libraries/Text/RCTShadowRawText.m \
-  /Volumes/Data/Work/GameClub/node_modules/react-native/Libraries/Text/RCTShadowRawText.h \
+  /Volumes/Data/Work/ReactNative/GameClub/node_modules/react-native/Libraries/Text/RCTShadowRawText.m \
+  /Volumes/Data/Work/ReactNative/GameClub/node_modules/react-native/Libraries/Text/RCTShadowRawText.h \
   ../../React/Views/RCTShadowView.h ../../React/CSSLayout/CSSLayout.h \
   ../../React/CSSLayout/CSSEnums.h ../../React/CSSLayout/CSSMacros.h \
   ../../React/Views/RCTComponent.h ../../React/Base/RCTRootView.h \

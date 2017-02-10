@@ -1,7 +1,7 @@
 dependencies: \
-  /Volumes/Data/Work/GameClub/node_modules/react-native/Libraries/Text/RCTText.m \
-  /Volumes/Data/Work/GameClub/node_modules/react-native/Libraries/Text/RCTText.h \
-  /Volumes/Data/Work/GameClub/node_modules/react-native/Libraries/Text/RCTShadowText.h \
+  /Volumes/Data/Work/ReactNative/GameClub/node_modules/react-native/Libraries/Text/RCTText.m \
+  /Volumes/Data/Work/ReactNative/GameClub/node_modules/react-native/Libraries/Text/RCTText.h \
+  /Volumes/Data/Work/ReactNative/GameClub/node_modules/react-native/Libraries/Text/RCTShadowText.h \
   ../../React/Views/RCTShadowView.h ../../React/CSSLayout/CSSLayout.h \
   ../../React/CSSLayout/CSSEnums.h ../../React/CSSLayout/CSSMacros.h \
   ../../React/Views/RCTComponent.h ../../React/Base/RCTRootView.h \

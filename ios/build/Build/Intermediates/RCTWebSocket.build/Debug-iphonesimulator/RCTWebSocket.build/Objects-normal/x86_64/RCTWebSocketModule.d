@@ -1,12 +1,12 @@
 dependencies: \
-  /Volumes/Data/Work/GameClub/node_modules/react-native/Libraries/WebSocket/RCTWebSocketModule.m \
-  /Volumes/Data/Work/GameClub/node_modules/react-native/Libraries/WebSocket/RCTWebSocketModule.h \
+  /Volumes/Data/Work/ReactNative/GameClub/node_modules/react-native/Libraries/WebSocket/RCTWebSocketModule.m \
+  /Volumes/Data/Work/ReactNative/GameClub/node_modules/react-native/Libraries/WebSocket/RCTWebSocketModule.h \
   ../../React/Modules/RCTEventEmitter.h ../../React/Base/RCTBridge.h \
   ../../React/Base/RCTBridgeDelegate.h \
   ../../React/Base/RCTJavaScriptLoader.h ../../React/Base/RCTDefines.h \
   ../../React/Base/RCTBridgeModule.h ../../React/Base/RCTFrameUpdate.h \
   ../../React/Base/RCTInvalidating.h \
-  /Volumes/Data/Work/GameClub/node_modules/react-native/Libraries/WebSocket/RCTSRWebSocket.h \
+  /Volumes/Data/Work/ReactNative/GameClub/node_modules/react-native/Libraries/WebSocket/RCTSRWebSocket.h \
   ../../React/Base/RCTConvert.h ../../React/CSSLayout/CSSLayout.h \
   ../../React/CSSLayout/CSSEnums.h ../../React/CSSLayout/CSSMacros.h \
   ../../React/Views/RCTAnimationType.h \

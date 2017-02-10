@@ -40,7 +40,7 @@ class Signup extends React.Component {
   componentDidMount() {
       var _this = this;
       this.setState({loading: true});
-      firebase.auth().signInAnonymously()
+      firebase.auth().signInWithEmailAndPassword('Anonymous@gameclub.com', 'gameclub123')
       .then(function onSignInSuccess() {
         Database.listenUserDetails((Data) => {
             var templist = [];

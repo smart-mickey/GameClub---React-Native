@@ -1,6 +1,6 @@
 dependencies: \
-  /Volumes/Data/Work/GameClub/node_modules/react-native/Libraries/Settings/RCTSettingsManager.m \
-  /Volumes/Data/Work/GameClub/node_modules/react-native/Libraries/Settings/RCTSettingsManager.h \
+  /Volumes/Data/Work/ReactNative/GameClub/node_modules/react-native/Libraries/Settings/RCTSettingsManager.m \
+  /Volumes/Data/Work/ReactNative/GameClub/node_modules/react-native/Libraries/Settings/RCTSettingsManager.h \
   ../../React/Base/RCTBridgeModule.h ../../React/Base/RCTDefines.h \
   ../../React/Base/RCTBridge.h ../../React/Base/RCTBridgeDelegate.h \
   ../../React/Base/RCTJavaScriptLoader.h \

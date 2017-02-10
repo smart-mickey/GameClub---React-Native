@@ -1,8 +1,8 @@
 dependencies: \
-  /Volumes/Data/Work/GameClub/node_modules/react-native/Libraries/Image/RCTImageUtils.m \
-  /Volumes/Data/Work/GameClub/node_modules/react-native/Libraries/Image/RCTImageUtils.h \
+  /Volumes/Data/Work/ReactNative/GameClub/node_modules/react-native/Libraries/Image/RCTImageUtils.m \
+  /Volumes/Data/Work/ReactNative/GameClub/node_modules/react-native/Libraries/Image/RCTImageUtils.h \
   ../../React/Base/RCTDefines.h \
-  /Volumes/Data/Work/GameClub/node_modules/react-native/Libraries/Image/RCTResizeMode.h \
+  /Volumes/Data/Work/ReactNative/GameClub/node_modules/react-native/Libraries/Image/RCTResizeMode.h \
   ../../React/Base/RCTConvert.h ../../React/CSSLayout/CSSLayout.h \
   ../../React/CSSLayout/CSSEnums.h ../../React/CSSLayout/CSSMacros.h \
   ../../React/Views/RCTAnimationType.h \

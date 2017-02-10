@@ -1,6 +1,6 @@
 dependencies: \
-  /Volumes/Data/Work/GameClub/node_modules/react-native/Libraries/Geolocation/RCTLocationObserver.m \
-  /Volumes/Data/Work/GameClub/node_modules/react-native/Libraries/Geolocation/RCTLocationObserver.h \
+  /Volumes/Data/Work/ReactNative/GameClub/node_modules/react-native/Libraries/Geolocation/RCTLocationObserver.m \
+  /Volumes/Data/Work/ReactNative/GameClub/node_modules/react-native/Libraries/Geolocation/RCTLocationObserver.h \
   ../../React/Modules/RCTEventEmitter.h ../../React/Base/RCTBridge.h \
   ../../React/Base/RCTBridgeDelegate.h \
   ../../React/Base/RCTJavaScriptLoader.h ../../React/Base/RCTDefines.h \

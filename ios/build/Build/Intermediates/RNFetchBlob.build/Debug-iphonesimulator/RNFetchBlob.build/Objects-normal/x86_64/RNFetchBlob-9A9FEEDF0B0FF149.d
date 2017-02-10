@@ -1,6 +1,6 @@
 dependencies: \
-  /Volumes/Data/Work/GameClub/node_modules/react-native-fetch-blob/ios/RNFetchBlob/RNFetchBlob.m \
-  /Volumes/Data/Work/GameClub/node_modules/react-native-fetch-blob/ios/RNFetchBlob/RNFetchBlob.h \
+  /Volumes/Data/Work/ReactNative/GameClub/node_modules/react-native-fetch-blob/ios/RNFetchBlob/RNFetchBlob.m \
+  /Volumes/Data/Work/ReactNative/GameClub/node_modules/react-native-fetch-blob/ios/RNFetchBlob/RNFetchBlob.h \
   ../../react-native/React/Base/RCTBridgeModule.h \
   ../../react-native/React/Base/RCTDefines.h \
   ../../react-native/React/Base/RCTLog.h \
@@ -12,8 +12,8 @@ dependencies: \
   ../../react-native/React/Base/RCTFrameUpdate.h \
   ../../react-native/React/Base/RCTInvalidating.h \
   ../../react-native/React/Base/RCTEventDispatcher.h \
-  /Volumes/Data/Work/GameClub/node_modules/react-native-fetch-blob/ios/RNFetchBlobFS.h \
-  /Volumes/Data/Work/GameClub/node_modules/react-native-fetch-blob/ios/RNFetchBlobNetwork.h \
-  /Volumes/Data/Work/GameClub/node_modules/react-native-fetch-blob/ios/RNFetchBlobProgress.h \
-  /Volumes/Data/Work/GameClub/node_modules/react-native-fetch-blob/ios/RNFetchBlobConst.h \
-  /Volumes/Data/Work/GameClub/node_modules/react-native-fetch-blob/ios/RNFetchBlobReqBuilder.h
+  /Volumes/Data/Work/ReactNative/GameClub/node_modules/react-native-fetch-blob/ios/RNFetchBlobFS.h \
+  /Volumes/Data/Work/ReactNative/GameClub/node_modules/react-native-fetch-blob/ios/RNFetchBlobNetwork.h \
+  /Volumes/Data/Work/ReactNative/GameClub/node_modules/react-native-fetch-blob/ios/RNFetchBlobProgress.h \
+  /Volumes/Data/Work/ReactNative/GameClub/node_modules/react-native-fetch-blob/ios/RNFetchBlobConst.h \
+  /Volumes/Data/Work/ReactNative/GameClub/node_modules/react-native-fetch-blob/ios/RNFetchBlobReqBuilder.h

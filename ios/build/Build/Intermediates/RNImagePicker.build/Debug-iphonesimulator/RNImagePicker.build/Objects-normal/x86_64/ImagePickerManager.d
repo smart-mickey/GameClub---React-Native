@@ -1,6 +1,6 @@
 dependencies: \
-  /Volumes/Data/Work/GameClub/node_modules/react-native-image-picker/ios/ImagePickerManager.m \
-  /Volumes/Data/Work/GameClub/node_modules/react-native-image-picker/ios/ImagePickerManager.h \
+  /Volumes/Data/Work/ReactNative/GameClub/node_modules/react-native-image-picker/ios/ImagePickerManager.m \
+  /Volumes/Data/Work/ReactNative/GameClub/node_modules/react-native-image-picker/ios/ImagePickerManager.h \
   ../../react-native/React/Base/RCTBridgeModule.h \
   ../../react-native/React/Base/RCTDefines.h \
   ../../react-native/React/Base/RCTConvert.h \

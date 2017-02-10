@@ -1,6 +1,6 @@
 dependencies: \
-  /Volumes/Data/Work/GameClub/node_modules/react-native/Libraries/Network/RCTFileRequestHandler.m \
-  /Volumes/Data/Work/GameClub/node_modules/react-native/Libraries/Network/RCTFileRequestHandler.h \
+  /Volumes/Data/Work/ReactNative/GameClub/node_modules/react-native/Libraries/Network/RCTFileRequestHandler.m \
+  /Volumes/Data/Work/ReactNative/GameClub/node_modules/react-native/Libraries/Network/RCTFileRequestHandler.h \
   ../../React/Base/RCTURLRequestHandler.h \
   ../../React/Base/RCTBridgeModule.h ../../React/Base/RCTDefines.h \
   ../../React/Base/RCTURLRequestDelegate.h \

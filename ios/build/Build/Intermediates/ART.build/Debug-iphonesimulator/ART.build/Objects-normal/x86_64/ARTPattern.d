@@ -1,10 +1,10 @@
 dependencies: \
-  /Volumes/Data/Work/GameClub/node_modules/react-native/Libraries/ART/Brushes/ARTPattern.m \
-  /Volumes/Data/Work/GameClub/node_modules/react-native/Libraries/ART/Brushes/ARTPattern.h \
-  /Volumes/Data/Work/GameClub/node_modules/react-native/Libraries/ART/Brushes/ARTBrush.h \
-  /Volumes/Data/Work/GameClub/node_modules/react-native/Libraries/ART/RCTConvert+ART.h \
-  /Volumes/Data/Work/GameClub/node_modules/react-native/Libraries/ART/ARTCGFloatArray.h \
-  /Volumes/Data/Work/GameClub/node_modules/react-native/Libraries/ART/ARTTextFrame.h \
+  /Volumes/Data/Work/ReactNative/GameClub/node_modules/react-native/Libraries/ART/Brushes/ARTPattern.m \
+  /Volumes/Data/Work/ReactNative/GameClub/node_modules/react-native/Libraries/ART/Brushes/ARTPattern.h \
+  /Volumes/Data/Work/ReactNative/GameClub/node_modules/react-native/Libraries/ART/Brushes/ARTBrush.h \
+  /Volumes/Data/Work/ReactNative/GameClub/node_modules/react-native/Libraries/ART/RCTConvert+ART.h \
+  /Volumes/Data/Work/ReactNative/GameClub/node_modules/react-native/Libraries/ART/ARTCGFloatArray.h \
+  /Volumes/Data/Work/ReactNative/GameClub/node_modules/react-native/Libraries/ART/ARTTextFrame.h \
   ../../React/Base/RCTConvert.h ../../React/CSSLayout/CSSLayout.h \
   ../../React/CSSLayout/CSSEnums.h ../../React/CSSLayout/CSSMacros.h \
   ../../React/Views/RCTAnimationType.h \

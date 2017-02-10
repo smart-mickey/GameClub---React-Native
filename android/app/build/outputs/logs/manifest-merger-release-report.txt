@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Volumes/Data/Work/GameClub/android/app/src/main/AndroidManifest.xml:1:1-35:12
+ADDED from /Volumes/Data/Work/GameClub/android/app/src/main/AndroidManifest.xml:1:1-36:12
 	package
 		ADDED from /Volumes/Data/Work/GameClub/android/app/src/main/AndroidManifest.xml:2:5-27
 		INJECTED from /Volumes/Data/Work/GameClub/android/app/src/main/AndroidManifest.xml
@@ -72,7 +72,7 @@ MERGED from [GameClub:react-native-fetch-blob:unspecified] /Volumes/Data/Work/Ga
 		INJECTED from /Volumes/Data/Work/GameClub/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Volumes/Data/Work/GameClub/android/app/src/main/AndroidManifest.xml
 application
-ADDED from /Volumes/Data/Work/GameClub/android/app/src/main/AndroidManifest.xml:17:5-33:19
+ADDED from /Volumes/Data/Work/GameClub/android/app/src/main/AndroidManifest.xml:17:5-34:19
 MERGED from [com.facebook.react:react-native:0.39.0] /Volumes/Data/Work/GameClub/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.39.0/AndroidManifest.xml:13:5-20
 MERGED from [com.android.support:appcompat-v7:23.0.1] /Volumes/Data/Work/GameClub/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.2.1] /Volumes/Data/Work/GameClub/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
@@ -92,26 +92,28 @@ MERGED from [GameClub:react-native-fetch-blob:unspecified] /Volumes/Data/Work/Ga
 	android:name
 		ADDED from /Volumes/Data/Work/GameClub/android/app/src/main/AndroidManifest.xml:18:7-38
 activity#com.gameclub.MainActivity
-ADDED from /Volumes/Data/Work/GameClub/android/app/src/main/AndroidManifest.xml:23:7-31:18
+ADDED from /Volumes/Data/Work/GameClub/android/app/src/main/AndroidManifest.xml:23:7-32:18
+	android:screenOrientation
+		ADDED from /Volumes/Data/Work/GameClub/android/app/src/main/AndroidManifest.xml:26:9-45
 	android:label
 		ADDED from /Volumes/Data/Work/GameClub/android/app/src/main/AndroidManifest.xml:25:9-41
 	android:configChanges
-		ADDED from /Volumes/Data/Work/GameClub/android/app/src/main/AndroidManifest.xml:26:9-79
+		ADDED from /Volumes/Data/Work/GameClub/android/app/src/main/AndroidManifest.xml:27:9-79
 	android:name
 		ADDED from /Volumes/Data/Work/GameClub/android/app/src/main/AndroidManifest.xml:24:9-37
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Volumes/Data/Work/GameClub/android/app/src/main/AndroidManifest.xml:27:9-30:25
+ADDED from /Volumes/Data/Work/GameClub/android/app/src/main/AndroidManifest.xml:28:9-31:25
 action#android.intent.action.MAIN
-ADDED from /Volumes/Data/Work/GameClub/android/app/src/main/AndroidManifest.xml:28:13-65
+ADDED from /Volumes/Data/Work/GameClub/android/app/src/main/AndroidManifest.xml:29:13-65
 	android:name
-		ADDED from /Volumes/Data/Work/GameClub/android/app/src/main/AndroidManifest.xml:28:21-62
+		ADDED from /Volumes/Data/Work/GameClub/android/app/src/main/AndroidManifest.xml:29:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /Volumes/Data/Work/GameClub/android/app/src/main/AndroidManifest.xml:29:13-73
+ADDED from /Volumes/Data/Work/GameClub/android/app/src/main/AndroidManifest.xml:30:13-73
 	android:name
-		ADDED from /Volumes/Data/Work/GameClub/android/app/src/main/AndroidManifest.xml:29:23-70
+		ADDED from /Volumes/Data/Work/GameClub/android/app/src/main/AndroidManifest.xml:30:23-70
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from /Volumes/Data/Work/GameClub/android/app/src/main/AndroidManifest.xml:32:7-84
+ADDED from /Volumes/Data/Work/GameClub/android/app/src/main/AndroidManifest.xml:33:7-84
 	android:name
-		ADDED from /Volumes/Data/Work/GameClub/android/app/src/main/AndroidManifest.xml:32:17-81
+		ADDED from /Volumes/Data/Work/GameClub/android/app/src/main/AndroidManifest.xml:33:17-81
 android:uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from /Volumes/Data/Work/GameClub/android/app/src/main/AndroidManifest.xml:1:1-35:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from /Volumes/Data/Work/GameClub/android/app/src/main/AndroidManifest.xml:1:1-36:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4

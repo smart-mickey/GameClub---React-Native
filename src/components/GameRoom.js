@@ -150,6 +150,17 @@ class GameRoom extends React.Component {
       Actions.PostRoom();
       Global.selectedPost = data.post_id;
   }
+
+  reviewPost() {
+      alert("clicked");
+        // <View style = {{flex: 0.8, flexDirection: 'row'}}>
+        //     <Text style = {{flex: 0.6, color: 'yellow', fontSize: 20}}>{this.convertTitle(rowData)}</Text>
+        //     <Text style = {{flex: 0.2, color: 'gray', fontSize: 20}}> ( {rowData.username} )</Text>
+        // </View>
+        // <TouchableOpacity style = {{flex: 0.2, alignItems: 'flex-end'}} onPress = {() => this.reviewPost()}>
+        //     <Image source={nextImage} style = {{width: 30, height: 30}}/>
+        // </TouchableOpacity>
+  } 
     
     
 }

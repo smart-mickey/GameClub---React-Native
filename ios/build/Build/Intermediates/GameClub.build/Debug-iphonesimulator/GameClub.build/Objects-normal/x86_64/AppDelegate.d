@@ -1,5 +1,6 @@
-dependencies: /Volumes/Data/Work/GameClub/ios/GameClub/AppDelegate.m \
-  /Volumes/Data/Work/GameClub/ios/GameClub/AppDelegate.h \
+dependencies: \
+  /Volumes/Data/Work/ReactNative/GameClub/ios/GameClub/AppDelegate.m \
+  /Volumes/Data/Work/ReactNative/GameClub/ios/GameClub/AppDelegate.h \
   ../node_modules/react-native/React/Base/RCTBundleURLProvider.h \
   ../node_modules/react-native/React/Base/RCTRootView.h \
   ../node_modules/react-native/React/Base/RCTBridge.h \

@@ -143,6 +143,7 @@ class Upload extends React.Component {
                         style = {{flex: 1, borderBottomWidth: 0.5, borderColor: 'black', fontSize: 18, padding: 10, color: 'black', fontWeight: 'bold', textAlignVertical: 'top'}}
                         placeholder = "Title"
                         placeholderTextColor = 'gray'
+                        underlineColorAndroid='transparent'
                         onChangeText = {(text) => this.setState({ imageName: text })}
                         multiline = {true}
                         editable = {true}
@@ -152,6 +153,7 @@ class Upload extends React.Component {
                         style = {{flex: 4, flexDirection: 'column', fontSize: 18, padding: 10, color: 'black', textAlignVertical: 'top'}}
                         placeholder = "Type your comment here..."
                         placeholderTextColor = 'gray'
+                        underlineColorAndroid='transparent'
                         onChangeText = {(text) => this.setState({ comment: text })}
                         multiline = {true}
                         editable = {true}

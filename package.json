@@ -24,8 +24,7 @@
     "react-native-simple-modal": "^4.0.2",
     "react-native-storage": "^0.1.4",
     "react-native-tab-view": "0.0.54",
-    "react-native-testkit": "^0.1.2",
-    "react-native-toast": "^1.0.1"
+    "react-native-testkit": "^0.1.2"
   },
   "devDependencies": {
     "babel-jest": "18.0.0",

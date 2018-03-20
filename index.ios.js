@@ -27,9 +27,7 @@ const scenes = Actions.create(
     <Scene key="HomeView" component={HomeView} hideNavBar={true} title="HomeView"/>
     <Scene key="Upload" component={Upload} hideNavBar={true} title="Upload"/>
     <Scene key="Register" component={Register} hideNavBar={true} title="Register"/>  
-    <Scene key="GameRoom" component={GameRoom} hideNavBar={true} title="GameRoom"/>  
-    <Scene key="PostRoom" component={PostRoom} hideNavBar={true} title="PostRoom"/>  
-    <Scene key="Preview" component={Preview} hideNavBar={true} title="Preview"/>  
+    <Scene key="GameRoom" component={GameRoom} hideNavBar={true} title="GameRoom"/> 
   </Scene>
 );
 

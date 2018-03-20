@@ -81,31 +81,6 @@ class Database {
         });
     }
 
-    static getPostswithID(callback){
-        let usersPath = "/Posts/" + Global.selectedGame + '/' + Global.selectedPost;
-
-        firebase.database().ref(usersPath).on('value', (snapshot) => {
-
-            var Data = {};
-
-            if (snapshot.val()) {
-                Data = snapshot.val();
-            }
-
-            callback(Data)
-        });
-    }
-
-    static postComment(stamp, date, comment) {
-        let userMobilePath = "/Comments/" + Global.selectedPost + "/" + stamp + '-' + Global.myUsername;
-
-        return firebase.database().ref(userMobilePath).set({
-            comment: comment,
-            date: date, 
-            username: Global.myUsername
-        })
-    }
-
     static getCommentFromPost(callback) {
         let usersPath = "/Comments/" + Global.selectedPost;
 

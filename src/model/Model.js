@@ -24,9 +24,6 @@ class Model  {
         }
         return false;
     }
-
-
-
 }
 
 module.exports = Model;

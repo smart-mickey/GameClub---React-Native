@@ -14,7 +14,7 @@ const Register = require('./src/components/Signup');
 const GameRoom = require('./src/components/GameRoom');
 const PostRoom = require('./src/components/PostRoom');
 const Preview = require('./src/components/PreviewImage');
-import {Actions, Scene, Router} from 'react-native-router-flux';
+import {Scene, Router} from 'react-native-router-flux';
 const {
   AppRegistry,
   Text,
@@ -40,7 +40,17 @@ class GameClub extends React.Component {
     
     return (
       
-      <Router scenes={scenes}/>
+      <Router>
+        <Scene key="root">
+          <Scene key="Login" component={Login} hideNavBar={true} title="Login"/>
+          <Scene key="HomeView" component={HomeView} hideNavBar={true} title="HomeView"/>
+          <Scene key="Upload" component={Upload} hideNavBar={true} title="Upload"/>
+          <Scene key="Register" component={Register} hideNavBar={true} title="Register"/>  
+          <Scene key="GameRoom" component={GameRoom} hideNavBar={true} title="GameRoom"/>  
+          <Scene key="PostRoom" component={PostRoom} hideNavBar={true} title="PostRoom"/>  
+          <Scene key="Preview" component={Preview} hideNavBar={true} title="Preview"/>
+        </Scene>
+      </Router>
     );
   }
 }

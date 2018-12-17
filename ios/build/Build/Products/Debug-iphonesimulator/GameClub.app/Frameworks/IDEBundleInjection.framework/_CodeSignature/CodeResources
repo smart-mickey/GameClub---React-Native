@@ -6,19 +6,26 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		bG5SjXBKv7nL0tm6eqarZxkw4MU=
+		JBrL6En4QJlYoMl3malqnJmn+O8=
 		</data>
 		<key>version.plist</key>
 		<data>
-		JCQ9RFR4qHAK9CQnzT32H4+hApM=
+		6TSFXZwgmlONmxMDFLs4kWApLLU=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
 		<key>version.plist</key>
-		<data>
-		JCQ9RFR4qHAK9CQnzT32H4+hApM=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			6TSFXZwgmlONmxMDFLs4kWApLLU=
+			</data>
+			<key>hash2</key>
+			<data>
+			LZ1ASodl//MKBSICK68FJm/CdWCR8khtshgaFC/ieak=
+			</data>
+		</dict>
 	</dict>
 	<key>rules</key>
 	<dict>
@@ -37,6 +44,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^version.plist$</key>
 		<true/>
@@ -82,6 +94,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^Info\.plist$</key>
 		<dict>
